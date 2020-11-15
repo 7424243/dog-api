@@ -4,7 +4,7 @@ function getDogImages(inputValue) {
     fetch(`https://dog.ceo/api/breeds/image/random/${inputValue}`)
     .then(response => response.json())
     .then(responseJson => displayResults(responseJson))
-    .catch(e => alert('Something went wrong. Please try again.'));
+    .catch(error => alert('Something went wrong. Please try again.'));
   }
 
   function displayResults(responseJson) {
