@@ -1,0 +1,13 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+.results-img {
+    width: 100%;
+}
+
+.js-results-img {
+    width: 25%;
+   
+}
